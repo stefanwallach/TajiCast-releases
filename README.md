@@ -1,33 +1,114 @@
-# TajiCast — Releases
+<div align="center">
 
-**TajiCast** is a desktop app for real-time AI Bible-verse detection and broadcast during live sermons. It listens to the speaker, detects the verses being referenced or read, and pushes clean lower-third graphics to your projector or streaming software (vMix, OBS, etc.) over NDI.
+# TajiCast
 
-This repository hosts the official **Windows installers**. The application source lives in a separate repository.
+### The verse, on screen, the moment it's spoken.
 
-## Download
+**TajiCast** is a Windows app that listens to your preacher and detects the Bible verses being
+read or referenced — live — then broadcasts clean lower-third graphics to your projector or
+streaming software. No typist frantically searching for references. No dead air. Just the right
+verse, on screen, at the right moment.
 
-### ⬇️ [Download the latest version for Windows](https://github.com/stefanwallach/TajiCast-releases/releases/latest/download/TajiCast-Setup.exe)
+### ⬇️ [**Download for Windows**](https://github.com/stefanwallach/TajiCast-releases/releases/latest/download/TajiCast-Setup.exe)
 
-| Installer | Who it's for |
-|---|---|
-| **[TajiCast-Setup.exe](https://github.com/stefanwallach/TajiCast-releases/releases/latest/download/TajiCast-Setup.exe)** | Most people — double-click to install |
-| **[TajiCast.msi](https://github.com/stefanwallach/TajiCast-releases/releases/latest/download/TajiCast.msi)** | Church IT / managed deployment (Group Policy, Intune) |
+Free · Windows 10 & 11 (64-bit) · [All versions & release notes](https://github.com/stefanwallach/TajiCast-releases/releases)
 
-See the [Releases page](https://github.com/stefanwallach/TajiCast-releases/releases) for all versions and release notes.
+</div>
 
-## Installing
+---
 
-1. Download **TajiCast-Setup.exe** above.
-2. Double-click it to run the installer.
-3. Windows may show a blue **"Windows protected your PC"** screen because the installer isn't code-signed yet. This is expected. Click **More info → Run anyway** to continue.
-4. Follow the installer prompts.
+## What TajiCast does
+
+During a live service, TajiCast runs quietly in the background and:
+
+1. **Listens** to the sermon through your microphone or audio input.
+2. **Transcribes** the speech in real time.
+3. **Detects** the Bible verse being spoken — whether the preacher says a reference out loud
+   ("turn to John 3:16") or simply reads or paraphrases the passage.
+4. **Displays** that verse as a polished lower-third on your projector, or sends it over NDI to
+   your live-stream switcher.
+
+The person running the booth just watches it happen — and can approve, pin, or change what's on
+screen at any time.
+
+## Key features
+
+- **Real-time verse detection** — finds the passage as it's spoken, by spoken reference or by the
+  words themselves.
+- **Smart search** — type a reference like `Mark 3:5` *or* a phrase like `Jesus walks on water`
+  and TajiCast lands on the same verse. Search by idea, not just by chapter number.
+- **Broadcast to a projector** — full-screen output to a second monitor for your congregation.
+- **NDI output for live streaming** — send full-width, broadcast-ready lower-thirds straight into
+  **vMix, OBS**, or any NDI-capable switcher.
+- **Beautiful, ready-made themes** — a range of built-in lower-third designs, including
+  full-width NDI-friendly styles and options tuned for different pulpit color schemes. Customize
+  colors, fonts, and layout to match your church's look.
+- **Multiple Bible translations** — switch between translations, and import additional ones.
+- **Works completely offline** — the Bible database and the AI detection model are bundled inside
+  the app. Once installed, it needs no internet to detect and display verses.
+- **Manual control when you want it** — pin a verse, search and push one yourself, or let the
+  detection run hands-free.
+- **Cross-references and reading mode** — follow along through a passage and surface related
+  verses.
+- **Remote control** — trigger and control output from other tools over OSC or HTTP.
+
+## Speech recognition options
+
+TajiCast can transcribe using a cloud speech provider for the highest live accuracy, or run
+locally when you'd rather not depend on the internet:
+
+- **Cloud providers** — Deepgram, ElevenLabs, OpenAI, Groq, Google Gemini, and Anthropic Claude
+  (bring your own API key).
+- **Local / offline** — on-device Whisper and Ollama, no account required.
+
+You can also see your usage per model and, for supported providers, check your account balance
+right inside Settings.
+
+## Who it's for
+
+- **Churches and ministries** running live services with a projector or a live stream.
+- **Production volunteers** who want the right verse on screen without hunting for it mid-sermon.
+- **Multi-campus and broadcast teams** using vMix or OBS who need clean NDI graphics.
+
+## Download & install
+
+1. Click **[Download for Windows](https://github.com/stefanwallach/TajiCast-releases/releases/latest/download/TajiCast-Setup.exe)** and run **TajiCast-Setup.exe**.
+2. Windows may show a blue **"Windows protected your PC"** screen. This appears because the
+   installer isn't code-signed yet — it's expected and safe. Click **More info → Run anyway**.
+3. Follow the installer prompts, then launch TajiCast.
+4. Pick your audio input, choose a theme, select your output display, and you're ready.
 
 ## System requirements
 
 - Windows 10 or 11 (64-bit)
-- ~2 GB free disk space (the app bundles its Bible database and AI model offline)
+- ~2 GB free disk space (the Bible database and AI model are bundled for offline use)
 - A microphone or audio input for live transcription
+- A second monitor (for projector output) and/or an NDI-capable switcher such as vMix or OBS,
+  if you want to broadcast
+
+## Frequently asked questions
+
+**Does it need the internet?**
+No — verse detection and display work fully offline. An internet connection is only needed if you
+choose a cloud speech-recognition provider; local transcription works without one.
+
+**Why does Windows warn me when I install it?**
+The installer isn't code-signed yet, so Windows SmartScreen labels it "unknown publisher." Click
+**More info → Run anyway** to install. Code signing is planned for a future release.
+
+**Which live-streaming software does it work with?**
+Anything that accepts NDI — including vMix and OBS (with the NDI plugin).
+
+**Can I use my own Bible translation?**
+Yes. TajiCast ships with translations built in and lets you import additional ones.
 
 ## Support
 
-Found a bug or have a question? [Open an issue](https://github.com/stefanwallach/TajiCast-releases/issues).
+Have a question, found a bug, or want to request a feature?
+[**Open an issue**](https://github.com/stefanwallach/TajiCast-releases/issues) and we'll take a look.
+
+---
+
+<div align="center">
+<sub>TajiCast · Real-time Bible verse detection &amp; broadcast for live sermons</sub>
+</div>
