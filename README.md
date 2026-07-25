@@ -30,7 +30,8 @@ During a live service, TajiCast runs quietly in the background and:
    congregation, and, when livestreaming, as a lower-third sent over NDI to your switcher.
 
 The person running the booth just watches it happen — and can approve, pin, or change what's on
-screen at any time.
+screen at any time. And because TajiCast is transcribing the whole message as it listens, every
+service also leaves you with a full transcript and, on demand, a set of sermon notes to reuse.
 
 ## Key features
 
@@ -52,6 +53,11 @@ screen at any time.
   detection run hands-free.
 - **Cross-references and reading mode** — follow along through a passage and surface related
   verses.
+- **Live sermon transcripts** — every service is transcribed and saved automatically, ready to
+  search, edit and export.
+- **Automatic sermon notes** — turn any transcript into structured notes (key points, scripture
+  references, quotes and applications) with your own AI provider or a local model, all organized in
+  a built-in Content Studio.
 - **Remote control** — trigger and control output from other tools over OSC or HTTP.
 
 ## Speech recognition options
@@ -65,6 +71,26 @@ locally when you'd rather not depend on the internet:
 
 You can also see your usage per model and, for supported providers, check your account balance
 right inside Settings.
+
+## Transcripts, sermon notes & Content Studio
+
+TajiCast does more than put verses on screen — because it's already transcribing the sermon, it
+turns each service into reusable content:
+
+- **Every service is saved** — each transcription session is stored automatically with its date,
+  length and word count, so you build up a searchable archive of your preaching without lifting a
+  finger.
+- **One-click sermon notes** — from any transcript, generate a structured set of notes: a title,
+  the key points, the scripture references, memorable quotes and practical applications. It follows
+  strict rules to use *only* what was actually said — no invented references or quotes.
+- **Your AI, your choice** — generate notes with OpenAI, Claude, Gemini or Groq using your own
+  key, or run a **local model with Ollama** so nothing leaves your computer.
+- **Content Studio** — a built-in library to organize, edit, search and **export** your transcripts
+  and notes (as Markdown or text). You can even combine several sessions into one unified set of
+  notes.
+
+The result: one service gives you the on-screen verses, a full transcript, and ready-made notes for
+your podcast show notes, a blog post, a study handout, or a week of social content.
 
 ## Who it's for
 
@@ -103,6 +129,12 @@ Anything that accepts NDI — including vMix and OBS (with the NDI plugin).
 
 **Can I use my own Bible translation?**
 Yes. TajiCast ships with translations built in and lets you import additional ones.
+
+**Does it do more than display verses?**
+Yes. As it runs, TajiCast transcribes the whole sermon and saves every service automatically. From
+that transcript it can generate structured sermon notes — key points, references, quotes and
+applications — which you can edit and export from its built-in Content Studio. Transcription and
+notes can run fully on-device, or use an AI provider of your choice.
 
 ## Support
 
