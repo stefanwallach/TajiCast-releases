@@ -5,9 +5,10 @@
 ### The verse, on screen, the moment it's spoken.
 
 **TajiCast** is a Windows app that listens to your preacher and detects the Bible verses being
-read or referenced — live — then broadcasts clean lower-third graphics to your projector or
-streaming software. No typist frantically searching for references. No dead air. Just the right
-verse, on screen, at the right moment.
+read or referenced — live — then puts them on screen. Show the verse full-screen on your
+projector or displays, and, when you're livestreaming, send clean lower-thirds over NDI to your
+switcher. No typist frantically searching for references. No dead air. Just the right verse, on
+screen, at the right moment.
 
 ### ⬇️ [**Download for Windows**](https://github.com/stefanwallach/TajiCast-releases/releases/latest/download/TajiCast-Setup.exe)
 
@@ -25,8 +26,8 @@ During a live service, TajiCast runs quietly in the background and:
 2. **Transcribes** the speech in real time.
 3. **Detects** the Bible verse being spoken — whether the preacher says a reference out loud
    ("turn to John 3:16") or simply reads or paraphrases the passage.
-4. **Displays** that verse as a polished lower-third on your projector, or sends it over NDI to
-   your live-stream switcher.
+4. **Displays** that verse on screen — full-screen on your projector or displays for the
+   congregation, and, when livestreaming, as a lower-third sent over NDI to your switcher.
 
 The person running the booth just watches it happen — and can approve, pin, or change what's on
 screen at any time.
@@ -37,12 +38,13 @@ screen at any time.
   words themselves.
 - **Smart search** — type a reference like `Mark 3:5` *or* a phrase like `Jesus walks on water`
   and TajiCast lands on the same verse. Search by idea, not just by chapter number.
-- **Broadcast to a projector** — full-screen output to a second monitor for your congregation.
-- **NDI output for live streaming** — send full-width, broadcast-ready lower-thirds straight into
-  **vMix, OBS**, or any NDI-capable switcher.
-- **Beautiful, ready-made themes** — a range of built-in lower-third designs, including
-  full-width NDI-friendly styles and options tuned for different pulpit color schemes. Customize
-  colors, fonts, and layout to match your church's look.
+- **Full-screen display output** — the main way to show verses: send a full verse display to a
+  projector or second screen for your congregation.
+- **NDI output for live streaming** — when you're streaming, send broadcast-ready lower-thirds
+  straight into **vMix, OBS**, or any NDI-capable switcher.
+- **Beautiful, ready-made themes** — a range of built-in designs for both full-screen displays
+  and NDI lower-thirds, including full-width styles and options tuned for different pulpit color
+  schemes. Customize colors, fonts, and layout to match your church's look.
 - **Multiple Bible translations** — switch between translations, and import additional ones.
 - **Works completely offline** — the Bible database and the AI detection model are bundled inside
   the app. Once installed, it needs no internet to detect and display verses.
